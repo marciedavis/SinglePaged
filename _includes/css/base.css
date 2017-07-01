@@ -378,6 +378,11 @@ span.lineno {
     float: left;
 		margin: 20px;
 }
+.about {
+	width:500px;
+	text-align: center;
+	padding:10px;
+}
 
 .iphone {
 	background:  url("img/iphone.png") no-repeat center;
@@ -392,4 +397,10 @@ span.lineno {
 	height: 400px;
 	width: 200px;
 	float: left;
+}
+
+@media (max-width: 960px;) {
+  .iphone {
+		display: none;
+  }
 }
