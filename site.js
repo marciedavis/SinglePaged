@@ -47,7 +47,7 @@ $.extend($.easing,
             if (disableScrollFn) { return; }
             var page_height = $(window).height();
             var pos = $(this).scrollTop();
-            for (i in sections) {
+            for (var i in sections) {
                 if ((pos + settings.scrollToOffset >= sections[i]) && sections[i] < pos + page_height){
                     activateNav(i);
                 }
@@ -64,7 +64,7 @@ $.extend($.easing,
     }
 
     function activateNav(navID) {
-        for (nav in navs) { $(navs[nav]).removeClass('active'); }
+        for (var nav in navs) { $(navs[nav]).removeClass('active'); }
         $(navs[navID]).addClass('active');
     }
 })( jQuery );
@@ -85,11 +85,10 @@ $(document).ready(function (){
             $(this).on('click', function(event) {
         		event.preventDefault();
                 var target = $(event.target).closest("a");
-                var targetHight =  $(target.attr("href")).offset().top
+                var targetHight =  $(target.attr("href")).offset().top;
             	$('html,body').animate({scrollTop: targetHight - 170}, 800, "easeInOutExpo");
             });
         }
 	});
 
 });
-
