@@ -379,28 +379,31 @@ span.lineno {
 		margin: 20px;
 }
 .about {
-	width:500px;
+	width:100%;
 	text-align: center;
 	padding:10px;
 }
 
-.iphone {
-	background:  url("img/iphone.png") no-repeat center;
-	background-size: 200px 400px;
-	height: 400px;
-	width: 200px;
-	float: left;
-}
-.android {
-	background:  url("img/android.png") no-repeat center;
-	background-size: 200px 400px;
-	height: 400px;
-	width: 200px;
-	float: left;
-}
+/*@media (min-width: 960px;) {*/
+	.iphone {
+		background:  url("img/iphone.png") no-repeat center;
+		background-size: 200px 400px;
+		height: 400px;
+		width: 200px;
+		float: left;
+	}
+	.android {
+		background:  url("img/android.png") no-repeat center;
+		background-size: 200px 400px;
+		height: 400px;
+		width: 200px;
+		float: left;
+	}
+/*}*/
 
-@media (max-width: 960px;) {
-  .iphone {
+
+/*@media (max-width: 960px;) {
+  #parent {
 		display: none;
   }
-}
+}*/
