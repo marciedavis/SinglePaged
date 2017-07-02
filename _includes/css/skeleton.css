@@ -54,6 +54,7 @@
     .container .half.column  { width: 46%; }
     .container .big.column   { width: 96%; }
     .container .full.column  { width: 96%; }
+    #littleparent {display: none;}
   }
 
 
