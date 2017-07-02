@@ -28,6 +28,7 @@
     .container .half.column  { width: 364px; }
     .container .big.column   { width: 488px; }
     .container .full.column  { width: 748px; }
+    #littleparent {display: none;}
   }
 
 
@@ -40,6 +41,7 @@
     .container .half.column  { width: 48%; }
     .container .big.column   { width: 98%; }
     .container .full.column  { width: 98%; }
+    #bigparent { display: none; }
   }
 
 
