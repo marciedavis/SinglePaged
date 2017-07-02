@@ -18,6 +18,7 @@
 .container .half.column  { width: 460px; }
 .container .big.column   { width: 620px; }
 .container .full.column  { width: 940px; }
+#littleparent {display: none;}
 
 
 /* ----- Tablet (Portrait) -- 768px ----- */
