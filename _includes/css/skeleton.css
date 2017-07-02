@@ -19,6 +19,7 @@
 .container .big.column   { width: 620px; }
 .container .full.column  { width: 940px; }
 #littleparent {display: none;}
+#bigparent { display: block;}
 
 
 /* ----- Tablet (Portrait) -- 768px ----- */
@@ -30,6 +31,7 @@
     .container .big.column   { width: 488px; }
     .container .full.column  { width: 748px; }
     #littleparent {display: none;}
+    #bigparent { display: block;}
   }
 
 
@@ -43,6 +45,7 @@
     .container .big.column   { width: 98%; }
     .container .full.column  { width: 98%; }
     #bigparent { display: none; }
+    #littleparent { display: block; }
   }
 
 
@@ -56,6 +59,7 @@
     .container .big.column   { width: 96%; }
     .container .full.column  { width: 96%; }
     #littleparent {display: none;}
+    #bigparent { display: block;}
   }
 
 
